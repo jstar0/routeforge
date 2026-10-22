@@ -153,8 +153,6 @@ reproducible experiment harness, not that this metaheuristic beats anything.
   and package version are held constant. Invalid or incomplete plans stay
   visible in `result.json` with missing customers and violation messages.
 
-Every decision above, the alternatives rejected, and the remaining weaknesses
-are written out in [docs/design-decisions.md](docs/design-decisions.md).
 
 ## Development
 
@@ -171,7 +169,7 @@ uv run routeforge sweep --output-dir outputs/sweep --seeds 17,29,41
 `benchmark` and `sweep` are fast. `ablation` runs four solves per seed and takes
 about twenty seconds; repeated runs are byte-identical, including the manifest.
 
-See [docs/architecture.md](docs/architecture.md) for state transitions and [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution boundary.
+See [docs/architecture.md](docs/architecture.md) for state transitions.
 
 ## Scope
 

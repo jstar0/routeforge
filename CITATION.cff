@@ -1,9 +1,0 @@
-cff-version: 1.2.0
-title: "RouteForge"
-message: "If RouteForge helps your routing experiments, please cite the repository."
-type: software
-authors:
-  - family-names: "jstar"
-version: 0.1.0
-date-released: 2026-09-04
-abstract: "State-aware electric multi-compartment routing with auditable constraints."

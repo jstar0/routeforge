@@ -236,8 +236,7 @@ def ablation_report(payload: dict[str, Any]) -> str:
             "",
             f"**Verdict:** {payload['verdict']}.",
             "",
-            "A positive mean delta favours the state-aware tensor. This is reported as measured. "
-            "See `docs/design-decisions.md` for what the result means for the project's claims.",
+            "A positive mean delta favours the state-aware tensor. This is reported as measured.",
             "",
         ]
     )
