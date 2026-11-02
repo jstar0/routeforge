@@ -1,5 +1,7 @@
 # RouteForge
 
+在线体验（回放数据）：https://jstar0.github.io/routeforge/
+
 **Plan electric collection routes under battery, charging, time-window, and two-compartment constraints, and get the diagnostics that show why a plan is or is not feasible.**
 
 RouteForge models two independent payload compartments, load-dependent energy use, charging stations, and service windows, and searches with a constraint-driven ant-colony metaheuristic. Every result carries the route, cost decomposition, convergence history, and explicit constraint diagnostics, so an infeasible plan explains itself instead of disappearing.
